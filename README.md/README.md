@@ -54,6 +54,14 @@ Location is the strongest determinant of housing prices, with properties in Abuj
 Property type influences pricing, but less significantly than geographic location.
 Raw price data is unsuitable for direct modeling without transformation and outlier handling.
 Reducing high-cardinality categorical features improves interpretability and modeling readiness.
+## Visual Highlights
+
+Log-Transformed Price Distribution
+[Log Price Distribution](images/log_price_distribution.png)
+House Prices by State
+[Price by State](images/price_by_state.png)
+House Prices by Property Type
+[Price by Property Type](images/price_by_property_type.png)
 
 Conclusion
 This exploratory analysis highlights the importance of careful preprocessing when working with real-world housing data. By addressing skewness, extreme outliers, and categorical complexity, the dataset has been transformed into a cleaner and more reliable form.
