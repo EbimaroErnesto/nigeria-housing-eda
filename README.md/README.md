@@ -54,6 +54,20 @@ Location is the strongest determinant of housing prices, with properties in Abuj
 Property type influences pricing, but less significantly than geographic location.
 Raw price data is unsuitable for direct modeling without transformation and outlier handling.
 Reducing high-cardinality categorical features improves interpretability and modeling readiness.
+Geographic location is the dominant driver of housing prices in Nigeria.
+Prime districts such as Ikoyi, Maitama, and Victoria Island are associated with substantially higher prices.
+Structural features contribute to price differences but play a secondary role compared to location.
+
+
+Regression Modeling
+
+A multiple linear regression model was trained to predict log-transformed house prices using both structural and location-based features.
+
+Test-set performance:
+RMSE: ~0.25 (log scale)
+R²: ~0.67
+
+The model explains approximately 67% of the variation in housing prices on unseen data, which is strong performance for a baseline linear regression applied to real-world housing data.
 ## Visual Highlights
 
 Log-Transformed Price Distribution
